@@ -11,21 +11,15 @@
 
 #ifdef DEBUG
 
-#define MTLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
-#define MTLogInfo(fmt, ...) NSLog((@"Info: %s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#define MTLogWarn(fmt, ...) NSLog((@"Warn: %s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#define MTLogError(fmt, ...) NSLog((@"Error: %s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define ATLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 
 #else
 
-#define MTLog(fmt, ...) /* */
-#define MTLogInfo(fmt, ...) /* */
-#define MTLogWarn(fmt, ...) /* */
-#define MTLogError(fmt, ...) /* */
+#define ATLog(fmt, ...) /* */
 
 #endif
 
-#define MTError(domain,errorCode,description) [NSError errorWithDomain:domain code:errorCode userInfo:@{NSLocalizedDescriptionKey : description }];
+#define ATError(domain,errorCode,description) [NSError errorWithDomain:domain code:errorCode userInfo:@{NSLocalizedDescriptionKey : description }];
 
 #define IS_IPHONE_5_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )736 ) < DBL_EPSILON )
 #define IS_IPHONE_4_7 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )667 ) < DBL_EPSILON )

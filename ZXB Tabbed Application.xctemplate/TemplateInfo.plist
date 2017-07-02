@@ -30,7 +30,7 @@
 		<string>Manager/.gitkeep</string>
 		<string>Request/.gitkeep</string>
 		<string>Vendors/.gitkeep</string>
-		<string>ViewController/.gitkeep</string>
+		<string>ViewControllers/.gitkeep</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -56,7 +56,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/XMLReader.h</string>
+			<string>General/Utils/XMLReader.h</string>
 		</dict>
 		<key>General/Utils/XMLReader.m</key>
 		<dict>
@@ -66,7 +66,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/XMLReader.m</string>
+			<string>General/Utils/XMLReader.m</string>
 		</dict>
 		<key>General/Utils/NSObject+NSJSONSerialization.h</key>
 		<dict>
@@ -76,7 +76,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/NSObject+NSJSONSerialization.h</string>
+			<string>General/Utils/NSObject+NSJSONSerialization.h</string>
 		</dict>
 		<key>General/Utils/NSObject+NSJSONSerialization.m</key>
 		<dict>
@@ -86,7 +86,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/NSObject+NSJSONSerialization.m</string>
+			<string>General/Utils/NSObject+NSJSONSerialization.m</string>
 		</dict>
 		<key>General/Utils/GeneralFuncUtil.h</key>
 		<dict>
@@ -96,7 +96,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/GeneralFuncUtil.h</string>
+			<string>General/Utils/GeneralFuncUtil.h</string>
 		</dict>
 		<key>General/Utils/GeneralFuncUtil.m</key>
 		<dict>
@@ -106,7 +106,7 @@
 				<string>Utils</string>
 			</array>
 			<key>Path</key>
-			<string>.General/Utils/GeneralFuncUtil.m</string>
+			<string>General/Utils/GeneralFuncUtil.m</string>
 		</dict>
 		<key>Models/.gitkeep</key>
 		<dict>
@@ -143,10 +143,10 @@
 			<key>Path</key>
 			<string>gitkeep</string>
 		</dict>
-		<key>ViewController/.gitkeep</key>
+		<key>ViewControllers/.gitkeep</key>
 		<dict>
 			<key>Group</key>
-			<string>ViewController</string>
+			<string>ViewControllers</string>
 			<key>Path</key>
 			<string>gitkeep</string>
 		</dict>
