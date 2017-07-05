@@ -11,7 +11,7 @@
 
 然后以该模板新建一个项目，效果如下：
 
-![](https://d1zjcuqflbd5k.cloudfront.net/files/acc_564191/9ajJll?response-content-disposition=inline;%20filename=ProjectTemplate3.jpg&Expires=1499247943&Signature=PRSltnnUQSgI0BK2ivi8BbH2JOGcPMRUhNbwRdTRLOrlfR5Hqe9c6XQtkYpNXOsvw~NJhFrg5TZmcnbZm-8HNnU827dHdzRYjuAlW0dw3PDjLTCy4i2TawPLTVr0fm4nQmJ2tlyJqcUSv2X5Umk3~8FnNzFC7MAQWaV7p2FqZ2I_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA)
+![](https://d1zjcuqflbd5k.cloudfront.net/files/acc_564191/9ajJll?response-content-disposition=inline;%20filename=ProjectTemplate3.jpg&Expires=1499248463&Signature=B3x9eY51vte-GUsZXIdmi4nffeOX-BSa2ymFJkVRHxStUdEPiR9Z2Hscks9Lf154kzC85ymhVUFrZQQwdPkOJtf73NWCFSNvazExHUk2MhduPMxMO69xWBBrN9-4iqgbctqH123HogQdHdtpkvDQdPg~DOFPd5EsUfJT4kHnhUo_&Key-Pair-Id=APKAJTEIOJM3LSMN33SA)
 
 该模板会自动创建好文件夹目录，以及自动添加一些常用的工具类等。以达到快速创建工程目的，省去一些繁琐工作量。也有助于团队中公共类共享以及团队统一工程目录。
 
